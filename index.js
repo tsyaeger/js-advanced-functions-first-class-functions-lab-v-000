@@ -13,20 +13,7 @@ const returnLastTwoDrivers = function last_two(drivers) {
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
 
-createFareMultiplier = function mult(drivers) {
-  return drivers.slice(-2)
-};
-
-describe('createFareMultiplier()', function () {
-    it('returns a function', function () {
-      const fareMultiplier = createFareMultiplier(2);
-
-      expect(fareMultiplier).to.be.a('function');
-    });
-
-    it('should multiply a given value using the created multiplier', function () {
-      const fareQuintupler = createFareMultiplier(5);
-
-      expect(fareQuintupler(5)).to.eql(25);
-    });
-  });
+function createFareMultiplier(mult) {
+  return function createFareMultiplier(fare) {
+    return fare * mult}
+}
