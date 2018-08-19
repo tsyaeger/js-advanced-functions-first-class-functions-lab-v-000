@@ -13,7 +13,9 @@ const returnLastTwoDrivers = function last_two(drivers) {
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
 
-createFareMultiplier = function mult ()
+createFareMultiplier = function last_two(drivers) {
+  return drivers.slice(-2)
+};
 
 describe('createFareMultiplier()', function () {
     it('returns a function', function () {
