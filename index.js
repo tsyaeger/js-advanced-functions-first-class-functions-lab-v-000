@@ -3,7 +3,7 @@
 
 const returnFirstTwoDrivers = function returnFirstTwoDrivers(drivers) {
   let firstTwo = [];
-  firstTwo.push(driver[0]);
-  firstTwo.push(driver[1]);
+  firstTwo.push(drivers[0]);
+  firstTwo.push(drivers[1]);
   return firstTwo;
 };
