@@ -18,6 +18,9 @@ function createFareMultiplier(mult) {
     return fare * mult}
 }
 
+const fareDoubler(2);
+
+const fareTripler(3);
 
  describe('createFareMultiplier()', function () {
     it('returns a function', function () {
