@@ -3,6 +3,6 @@
 
 const returnFirstTwoDrivers = function returnFirstTwoDrivers(drivers) {
   let firstTwo = [];
-  firstTwo.push(firstTwo.slice(0,2));
+  firstTwo.push(drivers.slice(0,2));
   return firstTwo;
 };
