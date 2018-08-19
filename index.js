@@ -10,7 +10,7 @@ const returnLastTwoDrivers = function last_two(drivers) {
 };
 
 
-const selectingDrivers = function either_or(fn) {
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
   
 }
 
