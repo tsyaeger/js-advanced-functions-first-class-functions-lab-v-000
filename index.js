@@ -10,7 +10,9 @@ const returnLastTwoDrivers = function last_two(drivers) {
 };
 
 
-const selectingDrivers = function 
+const selectingDrivers = function either_or(fn) {
+  
+}
 
 escribe('selectingDrivers', function () {
     it('has the `returnFirstTwoDrivers` function to as its first element', function () {
